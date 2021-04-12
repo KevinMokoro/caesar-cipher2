@@ -23,6 +23,7 @@ public class CaesarCipherTest {
 
     @Test
     public void getOutPut_getsCaesarCipherOutput_String() {
-        CaesarCipher
+        CaesarCipher testCaesar = new CaesarCipher("ab","cd");
+        assertEquals("cd", testCaesar.getOutput());
     }
 }
