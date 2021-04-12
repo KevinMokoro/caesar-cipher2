@@ -39,4 +39,21 @@ public class EncodingTest {
         char[] userArrayWords = userMessage.toCharArray();
         assertEquals('A',userArrayWords[0]);
     }
+
+    @Test
+    public void encrypt_ableToFindUserCharAtAlphabet_String() {
+        Encoding testEncoding = new Encoding("ABB","CDD",2);
+        String userItem = testEncoding.getUserInput();
+        assertEquals('B',userItem.charAt(1));
+    }
+
+   @Test
+   public void encrypt_isAbleToAbleToCompareCharsInAlteredAlphabetWithKey() {
+       Encoding testEncoding = new Encoding("ABB","CDD",2);
+        String userEntry =testEncoding.getUserInput();
+       int key = testEncoding.getKey();
+        testEncoding.Encrypt (userEntry, key);
+        assertTrue(userEntry.equalsIgnoreCase("ABB"));
+
+    }
 }
