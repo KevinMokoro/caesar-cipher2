@@ -2,6 +2,9 @@ package models;
 
 import org.junit.*;
 
+import java.lang.reflect.Array;
+import java.util.concurrent.Callable;
+
 import static org.junit.Assert.*;
 
 public class EncodingTest {
@@ -27,5 +30,13 @@ public class EncodingTest {
     public void getKey_getsEncodeKey_int() {
         Encoding testEncoding = new Encoding("ABB","CDD",2);
         assertEquals(2,testEncoding.getKey());
+    }
+
+    @Test
+    public void encrypt_isAbleToIdentifyChar_String() {
+        Encoding testEncoding = new Encoding("ABB", "CDD", 2);
+        String userMessage = testEncoding.getUserInput();
+        char[] userArrayWords = userMessage.toCharArray();
+        assertEquals('A',userArrayWords[0]);
     }
 }
