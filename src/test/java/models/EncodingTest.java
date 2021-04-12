@@ -52,8 +52,15 @@ public class EncodingTest {
        Encoding testEncoding = new Encoding("ABB","CDD",2);
         String userEntry =testEncoding.getUserInput();
        int key = testEncoding.getKey();
-        testEncoding.Encrypt (userEntry, key);
+        testEncoding.encrypt(userEntry, key);
         assertTrue(userEntry.equalsIgnoreCase("ABB"));
 
+    }
+
+    @Test
+    public void getExpectedOutPut_predictsTheOutput_String() {
+        Encoding newInstance = new Encoding("HI","JK",2);
+        String output = newInstance.getUseOutput();
+        assertEquals( output, newInstance.encrypt("HI",2));
     }
 }

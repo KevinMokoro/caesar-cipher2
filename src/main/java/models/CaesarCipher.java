@@ -19,4 +19,11 @@ public class CaesarCipher{
         return this.output;
     }
 
+    Encoding newInstance = new Encoding("HI","JK",2);
+    String messageOutput = newInstance.getUseOutput();
+    public String decrypt( ){
+        return "";
+
+    }
+
 }

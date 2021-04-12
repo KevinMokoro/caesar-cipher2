@@ -26,6 +26,10 @@ public class Encoding{
         return this.key;
     }
 
+    public String userExpectedOutPut(){
+       return encrypt(userInput,key);
+    }
+
     public String encrypt (String input,int key) {
         String wholeAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         String newEncryptedAlphabet = "";
@@ -51,9 +55,12 @@ public class Encoding{
                 encryptResult[index] = newChar;
             }
         }
+       // String resultToString = new String(encryptResult);
+        String resultToString = String.valueOf(encryptResult);
 
 
-        return Arrays.toString(encryptResult);
+        return resultToString;
     }
 
 }
+

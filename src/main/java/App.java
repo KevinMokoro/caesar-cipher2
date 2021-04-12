@@ -9,7 +9,7 @@ public class App {
     public static void main(String[] args) {
         BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
 
-        System.out.println("You're Here With Your Secret Cyphers.Ok Welcome..");
+        System.out.println("You're Here With Your Secret Ciphers.Ok Welcome..");
         System.out.println("First enter your whole sentence in uppercase.");
         try {
             String userSentence = bufferedReader.readLine();
