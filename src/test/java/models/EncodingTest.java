@@ -60,7 +60,7 @@ public class EncodingTest {
     @Test
     public void getExpectedOutPut_predictsTheOutput_String() {
         Encoding newInstance = new Encoding("HI","JK",2);
-        String output = newInstance.getUseOutput();
+        String output = newInstance.userExpectedOutPut();
         assertEquals( output, newInstance.encrypt("HI",2));
     }
 }
