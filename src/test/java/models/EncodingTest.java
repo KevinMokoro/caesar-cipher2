@@ -22,4 +22,10 @@ public class EncodingTest {
         Encoding testEncoding = new Encoding("abb", "cdd",2);
         assertEquals("cdd",testEncoding.getUseOutput());
     }
+
+    @Test
+    public void getKey_getsEncodeKey_int() {
+        Encoding testEncoding = new Encoding("ABB","CDD",2);
+        assertEquals(2,testEncoding.getKey());
+    }
 }
