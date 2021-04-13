@@ -26,4 +26,5 @@ public class CaesarCipherTest {
         CaesarCipher testCaesar = new CaesarCipher("ab","cd");
         assertEquals("cd", testCaesar.getOutput());
     }
+
 }
