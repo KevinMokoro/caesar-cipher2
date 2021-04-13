@@ -1,4 +1,5 @@
 
+import models.CaesarCipher;
 import models.Encoding;
 
 import java.io.BufferedReader;
@@ -17,9 +18,14 @@ public class App {
             int userNumber = Integer.parseInt(bufferedReader.readLine());
             Encoding newEncoding = new Encoding(userSentence,"",userNumber);
 
-            String output = newEncoding.encrypt(userSentence,userNumber);
+            String encryptedOutput = newEncoding.encrypt(userSentence,userNumber);
 
-            System.out.println(output);
+            System.out.println("Encrypted String: " + encryptedOutput);
+
+
+
+
+
 
 
 
