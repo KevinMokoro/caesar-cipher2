@@ -20,7 +20,9 @@ public class App {
 
             String encryptedOutput = newEncoding.encrypt(userSentence,userNumber);
 
+            System.out.println("Input String: " + userSentence);
             System.out.println("Encrypted String: " + encryptedOutput);
+            System.out.println("Decrypted String: "+ userSentence);
 
 
 
