@@ -1,31 +1,31 @@
-#CaesarCipher
+# CaesarCipher
 
-##Project Author:
+## Project Author:
 KEVIN MOKORO
 
-##Project Description
+## Project Description
 It is an Commandline Java Application used to encode and decode words and sentences.
 
-##Technologies Used
+## Technologies Used
 *Java
-###SetUp
+### SetUp
 Clone and run in the CommandLine.
 
-###Usage
+### Usage
 Encoding and Decoding phrases.
 
-###BDD
+### BDD
 *Takes User Input
 *Evaluates Every Letter Depending On user Entered phrase and unique key.
 *Returns the correct value on specs provided.
 
-####Support and Contact Details
+#### Support and Contact Details
 My Email [Kevin](klosvoke1@gmail.com).
 
-####Contributing
+#### Contributing
 Reach out for any addition to the project.
 
-###Copyright and License
+### Copyright and License
 Copyright <2018>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
