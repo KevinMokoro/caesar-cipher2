@@ -15,9 +15,9 @@ Clone and run in the CommandLine.
 Encoding and Decoding phrases.
 
 ### BDD
-*Takes User Input
-*Evaluates Every Letter Depending On user Entered phrase and unique key.
-*Returns the correct value on specs provided.
+* Takes User Input
+* Evaluates Every Letter Depending On user Entered phrase and unique key.
+* Returns the correct value on specs provided.
 
 #### Support and Contact Details
 My Email [Kevin](klosvoke1@gmail.com).
