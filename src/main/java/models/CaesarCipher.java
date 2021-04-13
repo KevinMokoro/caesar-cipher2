@@ -24,9 +24,13 @@ public class CaesarCipher {
 
     Encoding newInstanceInClass = new Encoding("HI","JK",2);
     int key = newInstanceInClass.getKey();
+    String inputFrom = newInstanceInClass.getUseOutput();
+    String outPutTo = newInstanceInClass.getUserInput();
 
 
-    public String decrypt() {
+    public String decrypt(Encoding inputFromClass,CaesarCipher outPutTo) {
+
+
 
         CaesarCipher newInstance = new CaesarCipher("","");
         String inputFrom = newInstance.getInput();
@@ -44,6 +48,7 @@ public class CaesarCipher {
 
 
         }
+
         return outputTo;
     }
 
