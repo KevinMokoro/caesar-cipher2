@@ -63,4 +63,6 @@ public class EncodingTest {
         String output = newInstance.userExpectedOutPut();
         assertEquals( output, newInstance.encrypt("HI",2));
     }
+
+
 }
