@@ -7,7 +7,7 @@ KEVIN MOKORO
 It is an Commandline Java Application used to encode and decode words and sentences.
 
 ## Technologies Used
-*Java
+* Java
 ### SetUp
 Clone and run in the CommandLine.
 
